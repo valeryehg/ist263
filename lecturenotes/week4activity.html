@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Scholarship Form</title>
+        <style>
+            td, th {border: 1px solid black;}
+        </style>
+    </head>
+
+    <body>
+    <h1>Scholarship Form</h1>
+        <table>
+            <caption>Available Scholarships</caption>
+            <tr>
+                <th>Name of Scholarship</th> <!--headings don't have to be at top-->
+                <th>Amount</th>
+                <th>Award Date</th>
+            </tr>
+            <tr>
+                <td>Memorial</td>
+                <td>$10,000</td>
+                <td>5/1/2024</td>
+        </table><br>
+
+        <form action="" method="post">
+            Year in School: <br>
+            <input type="radio" id="sophomore" name="year" value="student year">
+            <label for="year">Sophomore</label>
+            <input type="radio" id="junior" name="year" value="student year">
+            <label for="year">Junior</label>
+            <input type="radio" id="senior" name="year" value="student year">
+            <label for="year">Senior</label><br>
+
+            <input type="submit" value="send form">
+        </form>
+    </body>
+</html>

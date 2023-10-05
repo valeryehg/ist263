@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 Embedded CSS</title>
+    <style>
+        h1 {color:olive;}
+        /* body selects everything */
+        body {
+            background-color:blanchedalmond;
+            font-family:Arial, Helvetica, sans-serif;}
+        /* in em, two is twice the default size. default size is determined by web browser */
+        p, h1, a{ /*grouped selector*/
+            font-size: 2em ; 
+            font-weight:bolder;
+            background-color: rgb(235, 204, 158);
+        }
+        p a {
+            text-decoration: none;
+        }
+
+        #secondpara {
+            color:darkgreen;
+        }
+
+        .yellow {
+            color: brown;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="yellow">CSS</h1>
+    <a class="yellow" href="https://amazon.com">Amazon</a>
+    <p><a href="https://ebay.com">Ebay</a>, ipsum dolor sit amet consectetur adipisicing elit. Odit, at cupiditate incidunt deleniti eos voluptatem consequuntur ipsam molestiae minima animi libero vel sint ratione, dolores tempora, quo nulla tempore voluptates.</p>
+    <!--each value for id must be unique-->
+    <p id="secondpara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis fuga repellat quasi magni cupiditate commodi nemo totam. Totam, esse quis? Pariatur possimus ipsam nam laboriosam cupiditate, cumque perferendis optio at?</p>
+</body>
+</html>

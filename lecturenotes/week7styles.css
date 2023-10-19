@@ -1,0 +1,11 @@
+body {
+    background-image: url(../images/otto.avif);
+    background-repeat:round;
+}
+
+p {
+    background-color: #FFA500;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 5px;
+}

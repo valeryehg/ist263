@@ -13,12 +13,21 @@ color: #AEC3B0;
 nav a:hover{
 background-color: #7EA081; 
 }
+@media only screen and (min-width:600px) {
+    nav a {
+        display: block;
+        max-width: 100%;
+    }
+    .pipe {
+        display: none;
+    }
 
+}
 .heading {
     text-align: center;
 }
 .banner {
-    width: 800px;
+    max-width: 100%;
 }
 .icon {
     width: 40px;
@@ -43,6 +52,9 @@ background-color: #7EA081;
     margin: 30px; 
 }
 
+.row2 {
+    flex-wrap: wrap;
+}
 .column1, .column4 {
     float:left;
 }

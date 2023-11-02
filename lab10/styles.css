@@ -13,7 +13,8 @@ color: #AEC3B0;
 nav a:hover{
 background-color: #7EA081; 
 }
-@media only screen and (min-width:600px) {
+
+@media only screen and (max-width:600px) {
     nav a {
         display: block;
         max-width: 100%;

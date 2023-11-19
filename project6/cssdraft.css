@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.casestudy {
+    text-align: center;
+}
+.facebook {
+    display: block;
+    margin: 0 20px; 
+    max-width: calc(100% - 40px); 
+    max-height: 100%;
+}
+
+p {
+    align-content: center;
+    margin: 25px;
+    padding: 5px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav a:hover,
+nav a:focus {
+    color:rgb(178, 59, 59);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 2em;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}   
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px black solid;
+}
+
+
+@media only screen and (max-width: 640px){
+    .container {
+        text-align: center;
+    }
+
+    .container-nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 0.8em 0;
+    }
+}

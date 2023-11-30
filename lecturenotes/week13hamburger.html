@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger Menu</title>
+    <!--
+        CSS
+        1. large - no hamburger
+        2. small - show hamburger
+        3. large - no x
+        4. small - show x
+        5. large - links side by side
+        6. small - links stacked
+        7. small  -links initially hidden
+
+        JavaScript
+        8. click on hamburger menu to show links
+        9. click on x to hide the links
+    -->
+    <style>
+        #hamicon {width: 40px;}
+        @media only screen and (min-width:800px) {
+            #hamicon, #close {display: none;}
+        }
+        @media only screen and (max-width:799px) {
+            a {
+                display: block;
+                border: 1px solid #444444}
+            #navicons {display:none;}
+        }
+    </style>
+    <script>
+        function showNav() {
+            
+        }
+    </script>
+</head>
+<body>
+    <div class="firstrow">
+        <img id="hamicon" src="http://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon">
+        <p id="close">X</p>
+    </div> 
+    <nav id="navicons">
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</body>
+</html>

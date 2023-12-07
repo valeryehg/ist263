@@ -35,6 +35,13 @@ nav li {
     margin-left: 2em;
 }
 
+.homepglink {
+    text-decoration: none;
+    color: black;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 0.75em;
+
+}
 .container {
     width: 90%;
     max-width: 900px;

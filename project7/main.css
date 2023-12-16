@@ -143,6 +143,19 @@ section#hero h1 {
 .column p {
     font-size: 1rem;
 }
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
 /*RESPONSIVE DESIGN */
 @media screen and (max-width: 980px){
     .navbar .links {

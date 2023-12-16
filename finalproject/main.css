@@ -107,7 +107,7 @@ section#hero {
     justify-content: left;
     text-align: left;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 15px;
     color:#2d3530;
 }
 section#hero h1 {
@@ -138,14 +138,21 @@ section#hero h1 {
 }
 .column {
     flex: 1;
-    border: 1px solid;
-    margin: 2px;
-    padding: 10px;
+    margin: 10px;
+    padding: 15px;
     background: #bab9b6;
     transition: 0.3s;
 }
 .column:last-child{
     background: #919e83;
+}
+/*text in columns*/
+.column h2 {
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+.column p {
+    font-size: 1rem;
 }
 /*RESPONSIVE DESIGN */
 @media screen and (max-width: 980px){

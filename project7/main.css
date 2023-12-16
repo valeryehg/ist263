@@ -79,14 +79,12 @@ header {
     align-items: center;
     justify-content: center;
 }
-/*HERO*/
 
-.firsthero{
-    background: url('lights.jpg');
+.bannerimg {
     width: 95%;
-    padding: 20px;
-    border-radius: 5px;
+    margin-left: 20px;
 }
+/*HERO*/
 section#hero {
     height: calc(100vh-60px);
     display: flex;
@@ -96,7 +94,7 @@ section#hero {
     text-align: left;
     margin-top: 10px;
     margin-left: 20px;
-    color:#fefffe;
+    color: #2d3530;
 }
 section#hero h1 {
     font-weight: 900;
@@ -187,4 +185,7 @@ section#hero h1 {
     .columns .column {
         margin: 0 0 5px 0;
         flex-basis: 100%; }
+    .bannerimg {
+        display: none;
+    }
 }

@@ -80,11 +80,13 @@ header {
     justify-content: center;
 }
 
-.bannerimg {
-    width: 95%;
-    margin-left: 20px;
-}
 /*HERO*/
+.firsthero {
+    background-image: url('lights.jpg');
+    width: 95%;
+    border-radius: 2px;
+    padding: 20px;
+}
 section#hero {
     height: calc(100vh-60px);
     display: flex;
@@ -94,7 +96,7 @@ section#hero {
     text-align: left;
     margin-top: 10px;
     margin-left: 20px;
-    color: #2d3530;
+    color: #d9d9d9;
 }
 section#hero h1 {
     font-weight: 900;

@@ -198,8 +198,8 @@ section#hero h1 {
 }
 .facebook {
     display: block;
-    margin: 0 20px; 
-    max-width: calc(100% - 50px); 
+    margin-left: 90px;
+    max-width: calc(100% - 200px); 
     max-height: 100%;
 }
 
@@ -220,7 +220,7 @@ article h2 {
 article h1{
     font-weight: 600;
     padding: 15px;
-    margin: 5px;
+    margin-top: 10px;
 }
 /*resources pg*/
 .resources {
@@ -228,7 +228,7 @@ article h1{
 }
 .resourceimg {
     display: block;
-    margin: 0 20px; 
-    max-width: calc(100% - 50px); 
+    margin-left: 90px;
+    max-width: calc(100% - 200px); 
     max-height: 100%;
 }

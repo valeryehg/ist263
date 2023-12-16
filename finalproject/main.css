@@ -92,6 +92,7 @@ header {
     justify-content: center;
 }
 /*HERO*/
+
 .firsthero{
     background: url('grid.jpg');
     width: 95%;
@@ -107,7 +108,7 @@ section#hero {
     text-align: left;
     margin-top: 10px;
     margin-left: 20px;
-    color:#dce6df;
+    color:#fefffe;
 }
 section#hero h1 {
     font-weight: 900;

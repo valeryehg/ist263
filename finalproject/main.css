@@ -51,26 +51,7 @@ header {
     cursor: pointer;
     display: none;
 }
-.action_btn {
-    background-color:#2d3530;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border: none;
-    outline: none;
-    border-radius: 20px;
-    font-size: 0.5rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: scale 0.2 ease;
-}
-.action_btn:hover {
-    scale: 1.05;
-    color: #fff;
-}
 
-.action_btn:active {
-    scale: 0.95;
-}
 
 /*DROPDOWN MENU */
 .dropdown_menu {
@@ -102,9 +83,9 @@ header {
 section#hero {
     height: calc(100vh-60px);
     display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     text-align: left;
     margin-top: 10px;
     margin-left: 15px;
@@ -142,6 +123,7 @@ section#hero h1 {
     padding: 15px;
     background: #bab9b6;
     transition: 0.3s;
+    border-radius: 5px;
 }
 .column:last-child{
     background: #919e83;
